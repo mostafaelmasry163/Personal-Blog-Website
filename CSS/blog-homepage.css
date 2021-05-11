@@ -19,6 +19,12 @@
   grid-area: sd;
   margin-bottom: 1.125rem;
 }
+.nav-list ul li a:hover {
+  opacity: 0.7;
+  line-height: 1.1;
+  font-size: 1.8rem;
+  transition: all 150ms ease-in-out;
+}
 
 #sec1 {
   margin-bottom: 1.125rem;
@@ -59,16 +65,26 @@
   margin-bottom: 1rem;
 }
 .card-description {
-  font:menu;
+  font: menu;
   font-size: 0.75rem;
   line-height: 1.7;
 }
-.footer{
-    background-color: #606c76;
-    color: white;
-    height: 4.1875rem;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.125rem;
+.footer {
+  background-color: #606c76;
+  color: white;
+  height: 4.1875rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.125rem;
+}
+
+.footer .social .icon-link {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.social .icon-link:hover .fa {
+  line-height: 25px;
 }
 
 @media (min-width: 900px) {
@@ -87,6 +103,4 @@
     margin-bottom: 2rem;
     margin-left: 2rem;
   }
-
-
 }

@@ -10,12 +10,15 @@
   </head>
   <body>
     <div class="container">
+      <!-- Blog Header -->
       <header>
         <a href="blog-homepage.html">Back to blog</a>
         <h1>Blog Title</h1>
       </header>
-      <div class="author-info">
-        <div class="row">
+
+      <section id="sec1">
+        <!-- Author info -->
+        <div class="author-info">
           <div class="col-4">
             <img
               src="https://dummyimage.com/100/d3d3d3/FFF.png&text=+PLACEHOLDER"
@@ -28,17 +31,22 @@
             </div>
           </div>
         </div>
-      </div>
+        <!-- social links -->
+        <div class="social">
+          <a class="icon-link round facebook fill"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a class="icon-link round linkedin fill"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a class="icon-link round twitter fill"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </div>
+      </section>
+      <!-- Blog main Body -->
       <section class="section">
         <div class="section-body">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            voluptatibus facere fugit placeat perferendis voluptate. Temporibus
-            quod ut maiores nam eveniet quo quas. Perspiciatis ea nam
-            <em>
-              Quas commodi eos doloribus fugit tempora, ut rem minus recusandae
-            </em>
-          </p>
           <figure class="section-image">
             <div class="image"></div>
             <figcaption class="image-text">
@@ -47,12 +55,22 @@
               Corrupti, eaque? Exercitationem dolore, excepturi voluptate
             </figcaption>
           </figure>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+            voluptatibus facere fugit placeat perferendis voluptate. Temporibus
+            quod ut maiores nam eveniet quo quas. Perspiciatis ea nam
+            <em>
+              Quas commodi eos doloribus fugit tempora, ut rem minus recusandae
+            </em>
+          </p>
+
           <h2>itaque quae quod reprehenderit nemo nesciunt dicta</h2>
           <p>porro culpa maxime totam <b>perferendis</b> recusandae.</p>
           <pre>
                 article {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
+                    &nbsp;&nbsp;display: grid;
+                    &nbsp;&nbsp;grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
                 }
           </pre>
 
@@ -68,17 +86,10 @@
             <li>laudantium nostrum architecto debitis</li>
           </ol>
         </div>
-      </section>
-      <section class="social">
-        <a class="icon-link round facebook fill"
-          ><i class="fa fa-facebook"></i
-        ></a>
-        <a class="icon-link round linkedin fill"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-        <a class="icon-link round twitter fill"
-          ><i class="fa fa-twitter"></i
-        ></a>
+        <div class="btn">
+          <button class="bt1">Follow</button>
+          <button class="bt2">Subscribe</button>
+        </div>
       </section>
     </div>
     <script
