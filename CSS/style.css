@@ -19,7 +19,8 @@ section {
   display: block;
 }
 body {
-  background-color: #f1f1f1;
+  margin: 4.5rem;
+  background-color: #f8f9f3;
   line-height: 1;
   font-size: 1.125rem;
 }
@@ -81,16 +82,14 @@ button {
 }
 
 .container {
-  margin: 1.125rem 2.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  /* margin: 1.125rem 2.5rem; */
 }
 .header {
   font-size: 3rem;
   padding: 1.125rem;
-}
-.nav-list {
-  font-size: 1.5rem;
-  padding: 1.125rem 0;
-  line-height: 1.125;
+  border-radius: 0.5rem;
 }
 
 .social .icon-link {
