@@ -4,8 +4,8 @@ body {
 }
 .container {
   background-color: #f2f3ee;
-  display: -ms-flexbox;
-  display: flex;
+  display:-ms-flexbox;
+  display:flex;
   flex-wrap: wrap;
   -ms-flex-align: flex-start;
   align-items: flex-start;
@@ -16,7 +16,7 @@ body {
 
 nav.nav-menu {
   width: 100%;
-  display: flex;
+  display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -57,7 +57,7 @@ header.header h1 {
 }
 
 #sec1 {
-  display: flex;
+  display:flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
@@ -100,7 +100,7 @@ header.header h1 {
 }
 
 #sec1 .divided {
-  display: flex;
+  display:flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -116,20 +116,20 @@ header.header h1 {
 }
 
 #sec1 .divided .author-info {
-  display: flex;
+  display:flex;
   flex-direction: row;
   gap: 1rem;
   align-items: flex-start;
   margin-left: -50px;
 }
 
-#sec1 .divided .author-info .col-4 {
+#sec1 .divided .author-info .avatar {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   max-width: 33.33333333%;
 }
 
-#sec1 .divided .author-info .col-4 img {
+#sec1 .divided .author-info .avatar img {
   width: 50px;
   height: 50px;
   background: url(https://dummyimage.com/100/d3d3d3/FFF.png&text=+PLACEHOLDER)
@@ -164,7 +164,7 @@ header.header h1 {
 }
 
 section.section {
-  display: block;
+  display:grid;
   line-height: 1.5;
   font-size: 18px;
   padding: 1.125rem;
@@ -185,7 +185,7 @@ section.section .section-body p b {
 section.section .section-body em {
   margin: 2rem 0 1.5rem;
   color: #a1a1a1;
-  display: block;
+  display:grid;
   border-left: 5px solid #9b4dca;
   padding-left: 0.75rem;
 }
